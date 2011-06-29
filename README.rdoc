@@ -1,3 +1,15 @@
-= greenmine_report
+= Greenmine плагин для Redmine
 
-Description goes here
+Проектное управление.
+
+Добавлено:
+
+ * добавлено отображение списка вложенных задач в PDF экспорте задачи (первое приближение)
+
+= Дополнения
+
+Установлен модуль http://github.com/edwinmoss/rfpdf/zipball/master для генерации PDF - 
+оторажаются русские буквы (plugins/rfpdf).
+
+= Лицензия
+
