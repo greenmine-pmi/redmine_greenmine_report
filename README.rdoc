@@ -6,9 +6,24 @@
 
  * добавлено отображение списка вложенных задач в PDF экспорте задачи (первое приближение)
 
+
+= Требования
+
+ Redmine version -  1.1.1
+ Supported Ruby versions -  ruby 1.8.6, 1.8.7
+ Required Rails version - 2.3.5
+ Required Rack version - 1.0.1
+
+  Install Rails
+  gem install rails -v=2.3.11
+
+  Install Rack:
+  gem install rack -v=1.1.0
+
+
 = Дополнения
 
-Установлен модуль http://github.com/edwinmoss/rfpdf/zipball/master для генерации PDF - 
+Необходимо установить модуль http://github.com/edwinmoss/rfpdf/zipball/master для генерации PDF - 
 оторажаются русские буквы (plugins/rfpdf).
 
 = Лицензия
