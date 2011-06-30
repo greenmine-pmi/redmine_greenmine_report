@@ -1,5 +1,5 @@
 require 'redmine'
-require 'redmine_export_pdf_patch' # overwrite base class
+require 'redmine_greenmine_report_export_pdf_patch' # overwrite base class
 
 Redmine::Plugin.register :redmine_greenmine_report do
   name 'Redmine Greenmine Report plugin'
